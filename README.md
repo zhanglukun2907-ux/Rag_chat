@@ -1,15 +1,4 @@
-[README.md](https://github.com/user-attachments/files/28501593/README.md)
 
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191110102MACQD9K64018705
-    ProduceID: 7626718951040434470-data_volume/files/所有对话/主对话/RAG-README.md
-    ReservedCode1: ""
-    ContentPropagator: 001191110102MACQD9K64028705
-    PropagateID: 1048304758561596#1780390982334
-    ReservedCode2: ""
----
 # RAG 知识库问答系统
 
 基于 RAG（检索增强生成）架构的个人知识库问答系统，支持多格式文档导入、增量加载、混合检索+Rerank精排、流式输出。
@@ -173,10 +162,3 @@ HF_ENDPOINT=https://hf-mirror.com python test_rag.py
 - [ ] 增加Query Rewrite（用户模糊问题→补全后检索）
 - [ ] LLMJudge换用Qwen2.5-32B-Instruct（7B做结构化输出不稳定）
 
-## License
-
-MIT
-
----
-
-> 本内容由 Coze AI 生成，请遵循相关法律法规及《人工智能生成合成内容标识办法》使用与传播。
